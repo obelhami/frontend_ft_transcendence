@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/connect": "^3.4.38",
+    "connect-history-api-fallback": "^2.0.0",
     "typescript": "~5.9.3",
     "vite": "^7.2.4"
   },

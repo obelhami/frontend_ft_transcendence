@@ -53,7 +53,7 @@ export default function SignUp() {
               </div>
             
               <!-- Submit Button -->
-              <button type="submit"
+              <button href="" data-link type="submit"
                       class="font-jersey text-[24px] border-[0.5px] flex justify-center items-center 
                       px-6 py-3 bg-gradient-to-r from-[#950101] via-[#222831] via-[#222831] to-[#950101] bg-[length:200%_100%]  
                       bg-left hover:bg-right transition-[background-position] duration-500 ease-in-out 

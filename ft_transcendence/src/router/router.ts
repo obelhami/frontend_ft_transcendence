@@ -22,7 +22,6 @@ export async function navigateTo(url: string) {
 
 export function router() {
   const app = document.getElementById("app")!;
-  
   // Fade out old page
   app.classList.add("opacity-0");
 
@@ -36,7 +35,7 @@ export function router() {
     requestAnimationFrame(() => {
       app.classList.remove("opacity-0");
     });
-  }, 150); // fade-out duration
+  }, 350); // fade-out duration
 }
 
 
@@ -51,3 +50,4 @@ document.addEventListener("click", (e) => {
     navigateTo(target.getAttribute("href")!);
   }
 });
+
